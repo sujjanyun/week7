@@ -13,6 +13,9 @@ app.engine('html', es6Renderer);
 app.set('views', 'templates');
 app.set('view engine', 'html');
 
+// setup the public folder for all our static items
+app.use(express.static['public']);
+
 const SERVER = HTTP.createServer(app);
 
 SERVER.listen(PORT, HOSTNAME, () => {

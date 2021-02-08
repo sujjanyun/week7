@@ -1,0 +1,30 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"
+
+body {
+    background-image: url("https://movieposterhd.com/wp-content/uploads/2018/11/Wreck-It-Ralph-2-2018-Movie-Wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    text-align: center;
+    margin: auto;
+    max-width: 500px;
+    width: 100%;
+    color: white;
+}
+.main {
+    color: white;
+    font-size: 20px;
+    background-color: rgb(80, 80, 219);
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+    margin-top: 20%;
+}
+h1 {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    -webkit-text-stroke: 2px red;
+}
